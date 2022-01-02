@@ -34,7 +34,8 @@ node server.js
 ```js
 import Create from "certificate-create";
 
-const CertCreate = new Create(2000, 1545);
+const CertCreate = new Create(2000, 1545); 
+// width and height in pixel
 
 CertCreate.AddText(
   "Name to Certificate",
@@ -64,7 +65,10 @@ const httpServer = createServer(app);
 import Create from "certificate-create";;
 
 app.get("/", function (req, res) {
+  
   const CertCreate = new Create(2000, 1545);
+  // width and height in pixel
+
   CertCreate.AddText(
     "Name to Certificate",
     "center",
