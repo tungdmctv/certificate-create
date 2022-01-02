@@ -2,6 +2,8 @@
 
 ​	This is JS module to create easy certificate card image. It allows you to create texts and customize font, color, size, position and add these texts to the certification card image.
 
+![Example image](https://gallery.dmc.tv/cards/4506.png)
+
 
 ## Installation
 
