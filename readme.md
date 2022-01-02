@@ -11,8 +11,24 @@
 npm install certificate-create
 ```
 
- 
 
+## Clone and Run Project
+
+```sh
+git clone https://github.com/tungdmctv/certificate-create.git
+
+cd certificate-create
+
+npm install
+
+node example.js
+
+## or
+
+node server.js
+```
+
+ 
 ## Usage
 
 ```js
