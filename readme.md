@@ -45,7 +45,7 @@ import { createServer } from "http";
 
 const app = express();
 const httpServer = createServer(app);
-import Create from "./index.js";
+import Create from "certificate-create";;
 
 app.get("/", function (req, res) {
   const CertCreate = new Create(2000, 1545);
